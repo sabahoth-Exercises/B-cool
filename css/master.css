@@ -1,0 +1,76 @@
+/* Scroll bar customized */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #ffffff;
+    border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #385a64;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+
+    background: #fd735c;
+}
+
+.bg-logo{
+    background-color: #0d6efd;
+}
+
+.nav-link:hover{
+    background-color: #ebebeb;
+}
+
+.bg-home{
+    background-color: #385a64;
+    color: #fd735c;
+}
+
+.btn:hover{
+    background-color: #FBC201FF;
+    color: black;
+}
+
+.ribbon-text{
+    font-size: 18px;
+    font-family: "Lucida Bright", cursive;
+}
+
+#gen-container{
+    background: linear-gradient(180deg, #ffffff 40%, #fbc201ff 60%);
+    border-bottom: #FBC201FF solid 55px;
+}
+
+.serv-marg{
+    margin: 2% 0 3% 0;
+    padding-left: 10%;
+}
+
+.text-expert{
+    color: #1a2e35;
+}
+
+.bg-bar{
+    background-color: #bb343e;
+}
+
+.btn-form{
+    background-color: #223a7a;
+    color: white;
+}
+
+.btn-form:hover{
+    background-color: #f56542;
+}
+
+.bg-footer{
+    background-color: rgba(0, 0, 0, 0.6);
+}

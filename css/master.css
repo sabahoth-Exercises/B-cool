@@ -17,7 +17,6 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-
     background: #fd735c;
 }
 
@@ -33,20 +32,28 @@
     background-color: #385a64;
     color: #fd735c;
 }
+#home .btn:hover{
+    background-color: #fd735c;
+    color: black;
+}
 
 .btn:hover{
-    background-color: #FBC201FF;
+    background-color: #fdb501;
     color: black;
 }
 
 .ribbon-text{
     font-size: 18px;
-    font-family: "Lucida Bright", cursive;
+    font-family: "Lucida Bright", serif;
+}
+
+.fs__text{
+    font-size: 19px;
 }
 
 #gen-container{
-    background: linear-gradient(180deg, #ffffff 40%, #fbc201ff 60%);
-    border-bottom: #FBC201FF solid 55px;
+    background: linear-gradient(180deg, #ffffff 40%, #fdb501 60%);
+    border-bottom: #fdb501 solid 55px;
 }
 
 .serv-marg{

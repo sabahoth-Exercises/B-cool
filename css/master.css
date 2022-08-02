@@ -47,10 +47,6 @@
     font-family: "Lucida Bright", serif;
 }
 
-.fs__text{
-    font-size: 19px;
-}
-
 #gen-container{
     background: linear-gradient(180deg, #ffffff 40%, #fdb501 60%);
     border-bottom: #fdb501 solid 55px;

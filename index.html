@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B-Cool</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="/scss/style.css">
     <link rel="stylesheet" href="/css/master.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
@@ -74,14 +75,12 @@
         </div>
         <div class="container-fluid my-5 p-3 bg-home">
             <div class="row mx-3 ribbon-text">
-                <div class="col align-self-center ms-3 ps-3">
-                    Payez après votre rendez-vous
+
+                <div class="col-6 align-self-center ps-3">
+                    Une solution pour toutes vos pannes.
                 </div>
-                <div class="col align-self-center">
-                    Une solution pour toutes vos pannes
-                </div>
-                <div class="col align-self-center">
-                    Plus d'une vingtaine d'années d'expérience
+                <div class="col-6 align-self-center">
+                    Plus d'une vingtaine d'années d'expérience.
                 </div>
             </div>
         </div>
@@ -94,22 +93,22 @@
                 <div class="col-sm-12 col-md-6 ">
                     <img src="/img/about.png" alt="services-image" width="100%">
                 </div>
-                <div class="col-sm-12 col-md-6 fw-light text-black lh-base font-monospace fs__text pb-3">
+                <div class="col-sm-12 col-md-6 fs-5 fw-light text-black lh-base font-monospace pb-3">
                     <p>
                         Vous pensez réparation ?montage ou installation ?<br/>
                         Que cela soit un réfrigérateur, un climatiseur, une chambre froide ou machine à crème, vous êtes au bon endroit !<br/>
                     </p>
                     <p>
                         <strong class="text-light"><span class="bg-home bg-gradient p-1 rounded-3 text-light">B</span>COOL</strong> est une dynamique équipe spécialisée dans les domaines du froid et réfrigération.<br/>
-                        Notre mission est d’offrir à nos clients un service <br/>de qualité supérieure.
+                        Notre mission est d’offrir à nos clients un service de qualité supérieure.
                     </p>
                     <p>
                         Notre expérience qui est de plus d'une vingtaine d'années nous permet de sources le meilleur rapport qualité/prix pour vous.
                     </p>
 
                     <p>
-                        Chez <strong class="text-light"><span class="bg-home bg-gradient p-1 rounded-3 text-light">B</span>COOL</strong>, nos clients restent le top de nos priorités et nous travaillons dur pour développer<br/>avec eux
-                        une relation sur le long terme, basée sur<br/>la confiance et l’authenticité.<br/>
+                        Chez <strong class="text-light"><span class="bg-home bg-gradient p-1 rounded-3 text-light">B</span>COOL</strong>, nos clients restent notre priorité et nous travaillons dur pour développer<br/>avec eux
+                        une relation sur le long terme, basée sur la confiance et l’authenticité.<br/>
                     </p>
                 </div>
             </div>
@@ -393,6 +392,14 @@
                             <button type="submit" class="btn btn-form w-100 fs-5">Envoyer</button>
                         </div>
                     </form>
+                    <div id="success_message" style="width:100%; height:100%; display:none; ">
+                        <h3>Successfully sent!</h3>
+                    </div>
+                    <div id="error_message"
+                         style="width:100%; height:100%; display:none; ">
+                        <h3>Error</h3>
+                        Sorry there was an error sending your message.
+                    </div>
                 </div>
             </div>
         </div>
